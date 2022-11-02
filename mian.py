@@ -283,6 +283,7 @@ button1.configure(width=80,height=40)
 
 button2 = Button(root,text='EXIT',bd=10,bg='red',activebackground='red',font=('times',15,'italic bold'),image=photoimage1,compound=RIGHT,command=mainexit)
 button2.place(x=350,y=290)
+
 button2.configure(width=80,height=40)
 
 root.mainloop()
